@@ -1,8 +1,6 @@
 # Gronsfeld_23011102043
 
 
-# Gronsfeld Cipher with Hash-Based Integrity Verification
-
 ## Overview
 This project implements a secure message transmission scheme using the Gronsfeld Cipher for encryption and decryption, along with a custom 16-bit hash function for integrity verification. The system ensures confidentiality through encryption and integrity through hashing.
 
