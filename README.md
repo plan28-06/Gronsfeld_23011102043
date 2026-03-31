@@ -70,6 +70,14 @@ Output: Plaintext P
    d. Convert Pi back to character  
 3. Combine all Pi to obtain plaintext P  
 
+
+## Prompts
+- ⁠How to structure the message so the receiver can separate ciphertext and hash easily?
+- How does the receiver know where the ciphertext ends and the hash begins?
+- How to fix the hash size so both sender and receiver stay consistent?
+- What minimal assumptions are needed so both sides interpret the message the same way?
+
+  
 ##  System Workflow
 Sender: Plaintext → Encryption → Ciphertext → Hash → Final Message  
 Receiver: Final Message → Split → Verify → Decrypt → Plaintext  
