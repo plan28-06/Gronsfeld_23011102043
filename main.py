@@ -61,6 +61,9 @@ if __name__ == "__main__":
 
     message = sender(plaintext, key)
     result = receiver(message, key)
-
-    print("Transmitted Message:", message)
-    print("Decrypted Plaintext:", result)
+    message2 = sender("Royal Challengers Bengaluru",key)
+    result2=receiver(message2 , key)
+    print("Transmitted Message 1:", message)
+    print("Decrypted Plaintext 1:", result)
+    print("Transmitted Message 2:", message2)
+    print("Decrypted Plaintext 2:", result2)
